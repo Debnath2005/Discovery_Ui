@@ -1,0 +1,476 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+.experience-cnt{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: white;
+}
+
+/* ------------Navbar started------ */
+.discovery-navbar{
+    position: fixed;
+    padding-left: 43.33px;
+    padding-right: 43.33px;
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+    z-index: 100;
+    width: 100%;
+   }
+   .navbar-items-cnt{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    align-items: center;
+   }
+   .navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+    padding-right: 7rem;
+   }
+   .navbar-list-items ul {
+       display: flex;
+       text-decoration: none;
+       gap: 25px;
+       list-style-type: none;
+   }
+   .navbar-list-items ul li{
+       text-decoration: none;
+   }
+   .navbar-list-items ul a{
+       text-decoration: none; /* Removes the underline */
+       color: inherit; /* Inherits color from the parent element */
+   }
+   .navbar-list-items ul a:hover{
+       background-color: blue;
+       color: white;
+   }
+
+   .icn-cls{
+    border: 1px solid black;
+    padding: 10px;
+    height: 17px;
+    width: 17px;
+   }
+
+   /* ----------------Navbar End------------------- */
+
+   .experience-video-cnt{
+    width: 100%;
+    height: 100vh;
+   }
+   .video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   }
+   .video-txt-cnt{
+    position: absolute;
+    top: 29%;
+    right: 31%;
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+   }
+
+   /* ----------- */
+   .experience-txt-cnt h1{
+    padding-top: 14rem;
+    /* height: 500px; */
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 8rem;
+    animation-delay: 10s;
+    animation-duration: 3s;
+   }
+
+   /* section third */
+
+   .experience-third-cnt{
+    width: calc(100%-6rem);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    height: 650px;
+    /* border: 1px solid red; */
+   }
+   .experience-third-txt-cnt{
+    width: 30%;
+    padding-left: 8%;
+    padding-right: 12%;
+    padding-top: 3rem;
+   }
+   .experience-third-txt-cnt h3{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    text-align: start;
+   }
+   .experience-third-txt-cnt p{
+    font-size: max(12px, min(22px, 2rem));
+    line-height: 1.35;
+    font-weight: 400;
+    text-align: start;
+   }
+   .experience-third-img-cnt {
+    width: 37%;
+    padding-right: 8%;
+    padding-left: 5%;
+    object-fit:contain;
+    height: 100%;
+   }
+   .experience-third-img-cnt img{
+    width: 100%;
+    object-position: 50% 50%;
+    height: 600px;
+   }
+   /* ---------------forth section---------------- */
+
+   .experience-forth-cnt{
+    background-color:aliceblue !important;
+    /* height: 1500px; */
+    width: 100%;
+    padding-top: 100px;
+    
+   }
+   .experience-forth-items-cnt{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    width: 100%;
+   }
+   .experience-img{
+    position: relative;
+    
+    /* width: 100%; */
+   }
+   .experience-img img{
+     width: 95%;
+     height: 800px;
+     object-fit: contain;
+     
+     padding-left: 0 !important;
+   }
+   .experience-txt-card{
+     /* width: 20%; */
+     position: absolute;
+     top: 13%;
+     left: 72%;
+     background-color: white;
+     height: 500px;
+     width: 500px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 100px;
+     border-radius: 10px;
+   }
+
+   .experience-txt-card h3{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    text-align: start;
+   }
+   .experience-txt-card p{
+    font-size: max(12px, min(22px, 2rem));
+    line-height: 1.35;
+    font-weight: 400;
+    text-align: start;
+   }
+   .experience-txt-card button{
+    border: 1px solid black;
+    padding: 20px;
+    width: 150px;
+    font-size: 1rem;
+   }
+
+   /* ---------------middle section---------------  */
+   .experience-txt-middle-card{
+      /* width: 5%; */
+      top: 13%;
+     left: 8%;
+     background-color: white;
+     height: 500px;
+     width: 500px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 100px;
+     border-radius: 10px;
+     position: absolute;
+   }
+   .experience-img-middle{
+    position: relative;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    width: 100%;
+
+   }
+   .experience-img-middle img{
+    /* width: 95%; */
+     height: 800px;
+     object-fit: contain;
+     /* border: 1px solid gold; */
+     padding-left: 0 ;
+     
+     
+   }
+   .experience-txt-middle-card h3{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    text-align: start;
+   }
+   .experience-txt-middle-card p{
+    font-size: max(12px, min(22px, 2rem));
+    line-height: 1.35;
+    font-weight: 400;
+    text-align: start;
+   }
+   .experience-txt-middle-card button{
+    border: 1px solid black;
+    padding: 20px;
+    width: 150px;
+    font-size: 1rem;
+   }
+
+
+    /* --------------------Footer------------------- */
+
+.discovery-footer{
+    border-top: 1px solid rgb(239, 232, 232);
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    padding-top: 100Px;
+}
+.discovery-footer-down-cnt{
+ height: 100px;
+ display: flex;
+ color: white;
+ justify-content: space-between;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.discovery-footer-cnt{
+    height: 400px;
+display: flex;
+}
+.discovery-logo-footer-cnt{
+ width: 33.33%;
+}
+.discovery-address-footer-cnt{
+    width: 33.33%;
+    color: white;
+}
+h5{
+    padding-bottom: 20px;
+}
+#real-estate{
+    padding-top: 20px;
+}
+.discovery-about-footer-cnt{
+    width: 33.33%;
+    display: flex;
+    color: white;
+}
+.discovery-about1-footer-cnt{
+    width: 50%;
+}
+.discovery-about2-footer-cnt{
+    width: 50%;
+}
+
+
+/* ------------------------ media query----------------------------- */
+
+@media screen and (min-width: 250px) and (max-width:650px) {
+    /* .discovery-footer{
+        width: 92%;
+    } */
+    .navbar-list-items ul {
+        display:none;
+    }
+   /* -------------body--------------------- */
+   .experience-video-cnt{
+    width: 100%;
+    height: 100vh;
+   }
+   .video{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit:cover;
+   }
+   .video-txt-cnt{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+   }
+
+   /* -----------------2nd container------------------- */
+   .experience-txt-cnt h1 {
+    padding-top: 14rem;
+    height: auto;
+    text-align: left;
+    font-size: 2rem;
+    padding-bottom: 8rem;
+    padding-left: 10px;
+}
+/* -------------------3 rd continer--------------------- */
+.experience-third-cnt {
+    width: 100%;
+    padding-left: 10px; 
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.experience-third-txt-cnt {
+    width: 100%;
+    padding-left: 0;
+    padding-right:0;
+     padding-top: 0;
+}
+.experience-third-txt-cnt h3 {
+    font-size: 2.125rem;
+    line-height: 1.1;
+    text-align: left;
+}
+.experience-third-txt-cnt p {
+    font-size: max(12px, min(22px, 2rem));
+    /* line-height: 1.35; */
+    font-weight: 400;
+    text-align: left;
+}
+.experience-third-img-cnt {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    object-fit: cover;
+    height: 100%;
+    order: -1;
+}
+
+/*  ---------------------------  4th section---------------------------- */
+.experience-img {
+    position: relative;
+    width: 100%;
+    height: 653px;
+}
+
+.experience-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-left: 0 !important;
+}
+
+
+.experience-txt-card {
+    /* width: 20%; */
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    background-color: white;
+    height: auto;
+    width: 70%;
+    padding: 20px;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    /* padding-top: 100px; */
+    border-radius: 10px;
+}
+/* -- */
+/* .experience-forth-cnt {
+    background-color: aliceblue !important;
+    
+    width: 100%;
+    padding-top: 100px;
+} */
+.experience-forth-items-cnt {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    width: 100%;
+    height: 800px;
+    padding-top: -35px;
+}
+.experience-img-middle {
+    position: relative;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    width: 100%;
+}
+.experience-txt-middle-card {
+    /* width: 5%; */
+    top: 38%;
+    left: 8%;
+    background-color: white;
+    /* height: 500px; */
+    width: 70%;
+    padding-left: 0;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+.experience-img-middle img {
+    /* width: 95%; */
+    height: 500px;
+    object-fit: cover;
+    /* border: 1px solid gold; */
+    padding-left: 0;
+}
+    /* ---------------------------footer---------------------------------------------- */
+    .discovery-footer{
+        height: 800px;
+        padding: 10px;
+        width: 100%;
+    }
+    .discovery-footer-cnt{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .discovery-logo-footer-cnt{
+        width: 100%;
+        padding-left: 0px;
+       }
+    .discovery-about-footer-cnt{
+        width:100%;
+        display: flex;
+        color: white;
+        border-top: 1px solid rgb(239, 232, 232);
+        /* flex-direction: column; */
+    }
+    .discovery-footer-down-cnt{
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: black;
+        border-top: 1px solid rgb(239, 232, 232);
+    }
+    h5{
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* .navbar-list-items ul li{
+        display: none;
+    } */
+}

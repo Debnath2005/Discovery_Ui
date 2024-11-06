@@ -1,0 +1,212 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.ourWorld-cnt{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+}
+
+/* ------------Navbar started------ */
+.discovery-navbar{
+    position: fixed;
+    padding-left: 43.33px;
+    padding-right: 43.33px;
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+    z-index: 100;
+    width: 100%;
+   }
+   .navbar-items-cnt{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    align-items: center;
+   }
+   .navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+    padding-right: 7rem;
+   }
+   .navbar-list-items ul {
+       display: flex;
+       text-decoration: none;
+       gap: 25px;
+       list-style-type: none;
+   }
+   .navbar-list-items ul li{
+       text-decoration: none;
+   }
+   .navbar-list-items ul a{
+       text-decoration: none; /* Removes the underline */
+       color: inherit; /* Inherits color from the parent element */
+   }
+   .navbar-list-items ul a:hover{
+       background-color: blue;
+       color: white;
+   }
+
+   .icn-cls{
+    border: 1px solid black;
+    padding: 10px;
+    height: 17px;
+    width: 17px;
+   }
+
+  
+    
+   
+  
+   /* ----------------Navbar End------------------- */
+
+   .ourWorld-body-cnt{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 43.33px;
+        /* padding-right: 43.33px; */
+        padding-top: 216px;
+        padding-bottom: 104px;
+
+   }
+   .ourWorld-card{
+     width: 24%;
+     padding-right: 10px;
+     padding-bottom: 25px;
+     
+   }
+   .ourWorld-img-card{
+    object-fit: cover;
+    width: 98%;
+    height:200px;
+   }
+   h2{
+    color: white;
+    /* font-weight: 400; */
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 0;
+   }
+   h3{
+    color: rgb(187, 193, 187);
+    font-weight: 400;
+    letter-spacing: -.05em;
+    font-size: 1.4rem;
+    /* line-height: 0; */
+   }
+   
+   /* --------------------Footer------------------- */
+
+.discovery-footer{
+    border-top: 1px solid rgb(239, 232, 232);
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    padding-top: 100Px;
+}
+.discovery-footer-down-cnt{
+ height: 100px;
+ display: flex;
+ color: white;
+ justify-content: space-between;
+ padding-left: 30px;
+ padding-right: 100px;
+}
+.discovery-footer-cnt{
+    height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.discovery-logo-footer-cnt{
+ width: 33.33%;
+}
+.discovery-address-footer-cnt{
+    width: 33.33%;
+    color: white;
+}
+h5{
+    padding-bottom: 20px;
+}
+#real-estate{
+    padding-top: 20px;
+}
+.discovery-about-footer-cnt{
+    width: 33.33%;
+    display: flex;
+    color: white;
+}
+.discovery-about1-footer-cnt{
+    width: 50%;
+}
+.discovery-about2-footer-cnt{
+    width: 50%;
+}
+
+
+/* -------------------------------------------------------------- */
+@media screen and (min-width: 250px) and (max-width:650px) {
+    .discovery-footer{
+        width: 92%;
+    }
+    .navbar-list-items ul {
+        display:none;
+    }
+    .ourWorld-body-cnt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 95%;
+        padding-left: 27px;
+    }
+    .ourWorld-card {
+        width: 93%;
+        padding-right: 1%;
+        padding-left: 1%;
+        /* padding-bottom: 10px; */
+    }
+    /* ---------------------------footer---------------------------------------------- */
+    .discovery-footer{
+        height: 800px;
+        padding: 10px;
+    }
+    .discovery-footer-cnt{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .discovery-logo-footer-cnt{
+        width: 100%;
+        padding-left: 0px;
+       }
+    .discovery-about-footer-cnt{
+        width:100%;
+        display: flex;
+        color: white;
+        border-top: 1px solid rgb(239, 232, 232);
+        /* flex-direction: column; */
+    }
+    .discovery-footer-down-cnt{
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: black;
+        border-top: 1px solid rgb(239, 232, 232);
+    }
+    h5{
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* .navbar-list-items ul li{
+        display: none;
+    } */
+}
